@@ -187,3 +187,15 @@ body{
     position: absolute;
     bottom: 100px;
 }
+
+.intro {
+    position: absolute;
+    left: 250px;
+    top: 150px;
+    font-size: 2.5em;
+}
+
+.intro p {
+    font-style: italic;
+    font-size: 0.5em;
+}
