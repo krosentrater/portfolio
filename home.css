@@ -193,9 +193,24 @@ body{
     left: 250px;
     top: 150px;
     font-size: 2.5em;
+    color: #f1f1f1;
 }
 
 .intro p {
     font-style: italic;
     font-size: 0.5em;
+}
+
+.descrp {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.buttons {
+    padding: 10px 24px 10px 24px;
+    margin: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background: white;
+    font-size: 16px;
 }
