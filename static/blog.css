@@ -110,3 +110,17 @@ img {
     padding: 25px;
     font-size: 20px;
 }
+
+.repo-link {
+    text-decoration: none;
+    color: #f1f1f1;
+    padding: 25px;
+}
+
+.repo-link:hover {
+    color: black;
+}
+
+body{
+    font-family: 'Exo', sans-serif;
+}

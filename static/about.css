@@ -1,0 +1,24 @@
+.about-img {
+    height: 275px;
+    width: 250px;
+    display: block;
+    border-radius: 50%;  
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.space {
+    padding: 25px;
+}
+
+body{
+    font-family: 'Exo', sans-serif;
+}
+
+.paragraph1 {
+    font-size: 24px;
+    color: #f1f1f1;
+    position: absolute;
+    left: 250px;
+    padding: 25px;
+}
