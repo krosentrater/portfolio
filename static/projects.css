@@ -155,11 +155,6 @@ body {
     color: #8f94fb;
 }
 
-@media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
-}
-
 .social-media {
     display: flex;
     flex-direction: row;
@@ -254,4 +249,24 @@ body {
 
 body{
     font-family: 'Exo', sans-serif;
+}
+
+@media only screen and (max-width: 1300px) {
+    .sidebar a {
+        font-size: 16px;
+        padding: 4px 4px 4px 15px;
+    }
+
+    .sidebar {
+        width: 80px;
+    }
+
+    .projects-header {
+        font-size: 2em;
+    }
+
+    .project-image {
+        height: 150px;
+        width: 150px;
+    }
 }

@@ -12,14 +12,8 @@ body{
     width: 100%;
     position: absolute;
     top:50vh;
-    
 }
 
-.context h1{
-    text-align: center;
-    color: #fff;
-    font-size: 50px;
-}
 
 
 .area{
@@ -170,11 +164,6 @@ body{
     color: #8f94fb;
 }
 
-@media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
-}
-
 .pointer {
     font-size: 30px;
     cursor: pointer;
@@ -264,3 +253,29 @@ body{
     margin: 5px;
 }
 
+@media only screen and (max-width: 1300px) {
+    .sidebar a {
+        font-size: 16px;
+        padding: 4px 4px 4px 15px;
+    }
+
+    .sidebar {
+        width: 80px;
+    }
+
+    .intro {
+        left: 125px;
+        top: 50px;
+        font-size: 1.5em;
+        text-align: center;
+    }
+
+    .buttons {
+        padding: 5px 12px 5px 12px;
+    }
+
+    .skills {
+        left: 125px;
+        top: 450px;
+    }
+}
