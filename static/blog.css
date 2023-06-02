@@ -40,8 +40,8 @@ img {
 }
 
 .next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
+    right: 0;
+    border-radius: 3px 0 0 3px;
 }
 
 .prev:hover, .next:hover {
@@ -85,6 +85,51 @@ img {
 .fade {
     animation-name: fade;
     animation-duration: 1.5s;
+}
+
+.buttons {
+    padding: 10px 24px 10px 24px;
+    margin: 10px;
+    border: 1px solid #f1f1f1;
+    border-radius: 5px;
+    background: #f1f1f1;
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+    transition: all 0.5s;
+    display: inline-block; 
+}
+
+.buttons span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    transition: all 0.5s;
+}
+
+.buttons span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.buttons:hover span {
+    padding-right: 25px;
+    color: white;
+}
+
+.buttons:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.buttons:hover {
+    background-color: #383f51;
+    color: white;
 }
 
 @keyframes fade {
